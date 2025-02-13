@@ -1,0 +1,64 @@
+Project Description: 
+This project will develop CodeChuckle's GiggleGit, a version control system where merges are managed by memes. The goal for this project is to 
+implement core version control functionalities. 
+
+Agile:
+
+User Story 1: As a vanilla git power-user that has never seen GiggleGit before, I want to understand how GiggleGit differs from Git quickly, 
+so that I can get started and use its unique features without interrupting my workflow.
+
+Task 1: Create an interactive onboarding tutorial
+
+Ticket 1: Design an onboarding tutorial
+Outline the key features that should be covered in the onboarding tutorial, including merge handling via memes, basic commands, and UI walkthroughs.
+
+Ticket 2: Implement tutorial UI
+Develop the front-end components for the interactive tutorial that ensures a smooth and engaging user experience with clear instructions. 
+
+
+User Story 2: As a team lead onboarding an experienced GiggleGit user, I want to have clear documentation available, so that I can ensure my team 
+is efficient when using the tool.
+
+Task 2: Write comprehensive GiggleGit documentation
+
+Ticket 1: Create a "Getting Started" guide
+Develop a step-by-step guide covering installation, basic commands, and an overview of GiggleGit’s unique features. 
+
+Ticket 2: Document best practices for team workflows
+Write a section on recommended workflows for teams using GiggleGit, including guidelines on resolving merges, collaboration strategies, 
+and handling version conflicts effectively.
+
+
+User Story 3: As a GiggleGit user, I want a troubleshooting guide for common issues, so that I can quickly resolve problems.
+
+Task 3: Write troubleshooting guide
+
+Ticket 1: Identify common user issues
+Gather feedback from users to develop a list of frequent problems.
+
+Ticket 2: Create troubleshooting documentation
+Write clear step-by-step solutions for each common issue, including error message explanations and recommended fixes.
+
+
+This is not a user story because there is no specific goal that explains why the feature matters to the user.
+It focuses on a feature rather than a user’s experience or problem that needs solving. It is more of a technical requirement. 
+
+
+Formal Requirements:
+Goal: Improve user engagement through an interactive and user-friendly diff experience.
+
+Non-Goal: Implement IOS features 
+
+Non-Functional Requirement 1: User Access control
+    Fuctional Requirement 1: Implement role-based permissions
+    The system should differentiate between regular users, team leads, and PMs, granting appropriate access levels.
+
+    Functional Requirement 2: Restrict editing of snickering concepts
+    Only PMs should have the ability to create, modify, or remove snickering styles and behaviors.
+
+Non-Functional Requirement 2: Randomized User Studies
+    Functional Requirement 1: Develop user assignment logic
+    Users should be automatically assigned to control or variant groups using a randomized algorithm upon study enrollment.
+
+    Functional Requirement 2: Track and log study assignments
+    The system should maintain logs of user group assignments to ensure reproducibility and analysis integrity.
